@@ -1,0 +1,25 @@
+{
+    "name": "learning/hellopage",
+    "description": "A test module",
+    "type": "magento2-module",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "Amjada",
+            "email": "amjada.ladhani@gmail.com"
+        }
+    ],
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {
+        "php" : ">=7.0"
+    },
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Learning\\HelloPage\\": ""
+        }
+    }
+}
