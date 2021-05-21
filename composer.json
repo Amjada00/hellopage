@@ -1,5 +1,5 @@
 {
-    "name": "learning/hellopage",
+    "name": "learning_osp/hellopage",
     "description": "A test module",
     "type": "magento2-module",
     "version": "0.0.1",
